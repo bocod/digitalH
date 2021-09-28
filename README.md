@@ -5,6 +5,9 @@
 git init        inicializa git
 rm -rf .git     remueve git
 
+git config --global user.name "Nombre Apellido"
+git config --global user.email nombre.apellido@supermail.com
+
 .gitkeep        creando un archivo con ese nombre permite a git trackear una carpeta vacía
 
 Si quiero seleccionar una carpeta en especial del workspace:
