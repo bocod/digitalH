@@ -33,8 +33,10 @@
 # 
 # git remote add origin <url>       Este comando prepara y crea el directorio remoto donde almacenaremos el repo
 #                                   Origin (o Upstream en algunos equipos de trabajo) es la fuentes
-#                                   <url>   es la dirección del servidor donde almacenar el repo      
-# git push origin master            Pushea los cambios al repositorio remoto. 
+#                                   <url>   es la dirección del servidor donde almacenar el repo  
+#                                   O sea establecemos el cuál será el directorio remoto donde almacenaremos el repositorio    
+# git push origin main              Pushea los cambios al repositorio remoto. 
 #                                   Master pushea los cambios a la rama principal
 #
-# git push -u origin master         Deja fija la rama origin master
+# git push -u origin main           Deja fija la rama origin main. Main es el nombre de la rama donde se almacenará el repo. (master en desuso)
+#
