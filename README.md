@@ -31,7 +31,10 @@
 # 
 # !importante     Es necesario hacer el add previamente para preparar el paquete que luego se commiteará como "checkpoint" en el historial de cambios
 # 
-# git remote add origin <url>     Este comando prepara y crea el directorio remoto donde almacenaremos el repo
-#                                 Origin (o Upstream en algunos equipos de trabajo) es la fuentes
-#                                 <url>   es la dirección del servidor donde almacenar el repo      
-# git push origin master      Pushea los cambios al repositorio remoto
+# git remote add origin <url>       Este comando prepara y crea el directorio remoto donde almacenaremos el repo
+#                                   Origin (o Upstream en algunos equipos de trabajo) es la fuentes
+#                                   <url>   es la dirección del servidor donde almacenar el repo      
+# git push origin master            Pushea los cambios al repositorio remoto. 
+#                                   Master pushea los cambios a la rama principal
+#
+# git push -u origin master         Deja fija la rama origin master
