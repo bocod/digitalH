@@ -40,3 +40,4 @@
 #
 # git push -u origin main           Deja fija la rama origin main. Main es el nombre de la rama donde se almacenará el repo. (master en desuso)
 #
+# git branch -m nombre              Permite cambiar el nombre a la carpeta donde se almacenará. Si figura "master" conviene modificar antes de pushear a "main"
